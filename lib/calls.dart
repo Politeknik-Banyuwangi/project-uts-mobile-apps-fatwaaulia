@@ -19,7 +19,7 @@ class Calls extends StatelessWidget {
           ),
           Spacer(),
           Icon(
-            callOrVidcall,
+            Icons.video_call,
             color: Colors.green,
           ),
         ],
@@ -49,9 +49,9 @@ class Calls extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
-            getCalls("Tiara TI D", "(2) Hari ini 11.19", "Icons.call"),
-            getCalls("Mbak Rindy YOT", "Kemarin 20.01", "Icons.call"),
-            getCalls("Bunbun", "19 Mei 06.56", "Icons.call"),
+            getCalls("Tiara TI D", "(2) Hari ini 11.19", "call"),
+            getCalls("Mbak Rindy YOT", "Kemarin 20.01", "call"),
+            getCalls("Bunbun", "19 Mei 06.56", "11.video_call"),
             SizedBox(
               height: 10,
             ),
