@@ -31,7 +31,8 @@ class Chats extends StatelessWidget {
         time,
         style: TextStyle(
           color: Colors.black,
-          fontWeight: FontWeight.w500,
+          fontWeight: FontWeight.w400,
+          fontSize: 15,
         ),
       ),
     );
