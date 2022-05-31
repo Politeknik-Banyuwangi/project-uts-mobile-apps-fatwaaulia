@@ -18,10 +18,15 @@ class Calls extends StatelessWidget {
             style: TextStyle(color: Colors.black, fontWeight: FontWeight.w500),
           ),
           Spacer(),
-          Icon(
-            Icons.call,
-            color: Colors.green,
-          ),
+          callOrVidcall == "call"
+              ? Icon(
+                  Icons.call,
+                  color: Colors.green,
+                )
+              : Icon(
+                  Icons.video_call,
+                  color: Colors.green,
+                ),
         ],
       ),
       subtitle: Text(
@@ -52,6 +57,8 @@ class Calls extends StatelessWidget {
             getCalls("Tiara TI D", "(2) Hari ini 11.19", "call"),
             getCalls("Mbak Rindy YOT", "Kemarin 20.01", "call"),
             getCalls("Bunbun", "19 Mei 06.56", "11.video_call"),
+            getCalls("+62 1234567890", "17 Mei 15.12", "video_call"),
+            getCalls("Fajar TI D", "05 Mei 07.46", "call"),
             SizedBox(
               height: 10,
             ),
