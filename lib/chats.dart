@@ -17,6 +17,24 @@ class Chats extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
+            Stack(
+              alignment: AlignmentDirectional.bottomEnd,
+              children: [
+                CircleAvatar(
+                  backgroundImage: NetworkImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5fGKks_ZOlVCtiZQV6ETawu9L0xk74WbsvQ&usqp=CAU"),
+                  radius: 30,
+                ),
+                CircleAvatar(
+                  backgroundColor: Colors.green,
+                  radius: 10,
+                  child: Icon(
+                    Icons.add,
+                    size: 20,
+                    color: Colors.white,
+                  ),
+                ),
+              ],
+            ),
           ],
         ),
       ),
