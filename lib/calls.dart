@@ -5,7 +5,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 class Calls extends StatelessWidget {
   const Calls({Key? key}) : super(key: key);
   // Masukkan coding disini
-  Widget getCalls(name, message, time) {
+  Widget getCalls(name, time, callOrVidcall) {
     return ListTile(
       leading: CircleAvatar(
         backgroundImage: NetworkImage("https://i.ibb.co/80szBpR/fatwa.jpg"),
@@ -18,18 +18,18 @@ class Calls extends StatelessWidget {
             style: TextStyle(color: Colors.black, fontWeight: FontWeight.w500),
           ),
           Spacer(),
-          Text(
-            time,
-            style: TextStyle(
-              color: Colors.black,
-              fontWeight: FontWeight.w400,
-              fontSize: 12,
+          FloatingActionButton(
+            backgroundColor: Colors.green,
+            onPressed: () {},
+            child: Icon(
+              Icons.add_call,
+              color: Colors.white,
             ),
           ),
         ],
       ),
       subtitle: Text(
-        message,
+        time,
         style: TextStyle(
           color: Colors.black,
           fontWeight: FontWeight.w400,
