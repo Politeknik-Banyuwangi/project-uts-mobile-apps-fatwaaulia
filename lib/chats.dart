@@ -16,6 +16,10 @@ class Chats extends StatelessWidget {
             name,
             style: TextStyle(color: Colors.black, fontWeight: FontWeight.w500),
           ),
+          Text(
+            name,
+            style: TextStyle(color: Colors.black, fontWeight: FontWeight.w500),
+          ),
         ],
       ),
       subtitle: Text(message),
