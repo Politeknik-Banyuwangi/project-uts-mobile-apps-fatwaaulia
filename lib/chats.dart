@@ -71,6 +71,8 @@ class Chats extends StatelessWidget {
             getChats("Mz Aang", "suwon fat", "11.23"),
             getChats("Mz Aang", "suwon fat", "11.23"),
             getChats("Mz Aang", "suwon fat", "11.23"),
+            getChats("Mz Aang", "suwon fat", "11.23"),
+            getChats("Mz Aang", "suwon fat", "11.23"),
             SizedBox(
               height: 10,
             ),
