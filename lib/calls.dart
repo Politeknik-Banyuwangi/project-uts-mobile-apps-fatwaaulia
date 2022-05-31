@@ -19,7 +19,7 @@ class Calls extends StatelessWidget {
           ),
           Spacer(),
           Icon(
-            Icons.video_call,
+            Icons.call,
             color: Colors.green,
           ),
         ],
