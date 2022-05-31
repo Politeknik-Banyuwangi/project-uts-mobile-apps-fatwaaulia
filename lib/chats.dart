@@ -16,8 +16,9 @@ class Chats extends StatelessWidget {
             name,
             style: TextStyle(color: Colors.black, fontWeight: FontWeight.w500),
           ),
+          Spacer(),
           Text(
-            name,
+            time,
             style: TextStyle(color: Colors.black, fontWeight: FontWeight.w500),
           ),
         ],
