@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class Chats extends StatelessWidget {
   const Chats({Key? key}) : super(key: key);
 
-  Widget getStory(title, subTitle) {
+  Widget getChats(title, subTitle) {
     return ListTile(
       leading: CircleAvatar(
         backgroundImage: NetworkImage("https://i.ibb.co/80szBpR/fatwa.jpg"),
@@ -32,12 +32,9 @@ class Chats extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
-            getStory("Sasuke", "Just now"),
-            getStory("Ronaldo", "Today, 2:8 pm"),
-            getStory("Moh salah", "6 minutes ago"),
-            getStory("Rossi", "25 minutes ago"),
-            getStory("Torres", "Yestrday, 8:45 pm"),
-            getStory("Omar Hassan", "Yestrday, 5:5 Am"),
+            getChats("Nanda", "Halo Fatwa"),
+            getChats("Dio", "wkk siap"),
+            getChats("Mz Aang", "suwon fat"),
             SizedBox(
               height: 10,
             ),
