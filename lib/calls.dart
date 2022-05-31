@@ -19,7 +19,7 @@ class Calls extends StatelessWidget {
           ),
           Spacer(),
           Icon(
-            Icons.add_call,
+            Icons.call,
             color: Colors.green,
           ),
         ],
