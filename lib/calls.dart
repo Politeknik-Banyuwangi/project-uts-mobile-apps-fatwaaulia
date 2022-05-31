@@ -50,7 +50,6 @@ class Calls extends StatelessWidget {
         },
         child: ListView(
           children: [
-            // getContainer("Recent updates"),
             SizedBox(
               height: 10,
             ),

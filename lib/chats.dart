@@ -6,36 +6,41 @@ class Chats extends StatelessWidget {
 
   Widget getChats(name, message, time) {
     return ListTile(
-      leading: CircleAvatar(
-        backgroundImage: NetworkImage("https://i.ibb.co/80szBpR/fatwa.jpg"),
-        radius: 30,
-      ),
-      title: Row(
-        children: [
-          Text(
-            name,
-            style: TextStyle(color: Colors.black, fontWeight: FontWeight.w500),
+        leading: CircleAvatar(
+          backgroundImage: NetworkImage("https://i.ibb.co/80szBpR/fatwa.jpg"),
+          radius: 30,
+        ),
+        title: Row(
+          children: [
+            Text(
+              name,
+              style: TextStyle(color: Colors.black, fontWeight: FontWeight.w500),
+            ),
+            Spacer(),
+            Text(
+              time,
+              style: TextStyle(
+                color: Colors.black,
+                fontWeight: FontWeight.w400,
+                fontSize: 12,
+              ),
+            ),
+          ],
+        ),
+        subtitle: Column(children: [
+          Icon(
+            Icons.video_call,
+            color: Colors.green,
           ),
-          Spacer(),
           Text(
-            time,
+            message,
             style: TextStyle(
               color: Colors.black,
               fontWeight: FontWeight.w400,
-              fontSize: 12,
+              fontSize: 15,
             ),
           ),
-        ],
-      ),
-      subtitle: Text(
-        message,
-        style: TextStyle(
-          color: Colors.black,
-          fontWeight: FontWeight.w400,
-          fontSize: 15,
-        ),
-      ),
-    );
+        ]));
   }
 
   @override
@@ -48,7 +53,6 @@ class Chats extends StatelessWidget {
         },
         child: ListView(
           children: [
-            // getContainer("Recent updates"),
             SizedBox(
               height: 10,
             ),
