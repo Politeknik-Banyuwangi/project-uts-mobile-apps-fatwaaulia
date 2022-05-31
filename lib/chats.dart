@@ -17,6 +17,15 @@ class Chats extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
+            FloatingActionButton(
+              backgroundColor: Colors.white,
+              focusElevation: 0.0,
+              onPressed: () {},
+              child: Icon(
+                Icons.edit_rounded,
+                color: Colors.teal.shade900,
+              ),
+            ),
           ],
         ),
       ),
