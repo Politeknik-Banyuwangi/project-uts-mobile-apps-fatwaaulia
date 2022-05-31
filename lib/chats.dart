@@ -4,17 +4,21 @@ import 'package:flutter/material.dart';
 class Chats extends StatelessWidget {
   const Chats({Key? key}) : super(key: key);
 
-  Widget getChats(title, subTitle) {
+  Widget getChats(name, message) {
     return ListTile(
       leading: CircleAvatar(
         backgroundImage: NetworkImage("https://i.ibb.co/80szBpR/fatwa.jpg"),
         radius: 30,
       ),
       title: Text(
-        title,
+        name,
         style: TextStyle(color: Colors.black, fontWeight: FontWeight.w500),
       ),
-      subtitle: Text(subTitle),
+      title: Text(
+        name,
+        style: TextStyle(color: Colors.black, fontWeight: FontWeight.w500),
+      ),
+      subtitle: Text(message),
     );
   }
 
