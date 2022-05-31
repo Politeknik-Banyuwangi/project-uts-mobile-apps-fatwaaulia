@@ -58,6 +58,7 @@ class Calls extends StatelessWidget {
             getCalls("Bunbun", "19 Mei 06.56", "11.video_call"),
             getCalls("+62 1234567890", "17 Mei 15.12", "video_call"),
             getCalls("Fajar TI D", "05 Mei 07.46", "call"),
+            getCalls("Salsa", "05 Mei 05.26", "call"),
             SizedBox(
               height: 10,
             ),
