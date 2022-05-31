@@ -50,8 +50,8 @@ class Calls extends StatelessWidget {
               height: 10,
             ),
             getCalls("Tiara TI D", "(2) Hari ini 11.19", "Icons.call"),
-            getCalls("Mbak Rindy YOT", "Kemarin 20.01", "11.23"),
-            getCalls("Bunbun", "19 Mei 06.56", "11.23"),
+            getCalls("Mbak Rindy YOT", "Kemarin 20.01", "Icons.call"),
+            getCalls("Bunbun", "19 Mei 06.56", "Icons.call"),
             SizedBox(
               height: 10,
             ),
