@@ -27,7 +27,13 @@ class Chats extends StatelessWidget {
           ),
         ],
       ),
-      subtitle: Text(message),
+      subtitle: Text(
+        time,
+        style: TextStyle(
+          color: Colors.black,
+          fontWeight: FontWeight.w500,
+        ),
+      ),
     );
   }
 
