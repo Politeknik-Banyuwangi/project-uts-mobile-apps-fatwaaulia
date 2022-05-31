@@ -52,20 +52,20 @@ class Chats extends StatelessWidget {
                 ),
                 title: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      "My status",
-                      style: TextStyle(color: Colors.black, fontWeight: FontWeight.w500),
-                    ),
-                    SizedBox(
-                      height: 8,
-                    ),
-                    Text(
-                      "Tap to add status update",
-                      style: TextStyle(color: Colors.grey.shade700),
-                    ),
-                  ],
                 )),
+            SizedBox(
+              height: 10,
+            ),
+            // getContainer("Recent updates"),
+            SizedBox(
+              height: 10,
+            ),
+            getStory("Sasuke", "Just now"),
+            getStory("Ronaldo", "Today, 2:8 pm"),
+            getStory("Moh salah", "6 minutes ago"),
+            getStory("Rossi", "25 minutes ago"),
+            getStory("Torres", "Yestrday, 8:45 pm"),
+            getStory("Omar Hassan", "Yestrday, 5:5 Am"),
             SizedBox(
               height: 10,
             ),
