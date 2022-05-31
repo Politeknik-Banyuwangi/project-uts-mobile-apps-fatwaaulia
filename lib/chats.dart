@@ -28,16 +28,6 @@ class Chats extends StatelessWidget {
         },
         child: ListView(
           children: [
-            SizedBox(
-              height: 10,
-            ),
-            ListTile(
-                title: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-            )),
-            SizedBox(
-              height: 10,
-            ),
             // getContainer("Recent updates"),
             SizedBox(
               height: 10,
