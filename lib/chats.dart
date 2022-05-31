@@ -29,8 +29,8 @@ class Chats extends StatelessWidget {
         ),
         subtitle: Row(children: [
           Icon(
-            Icons.video_call,
-            color: Colors.green,
+            Icons.check,
+            color: Colors.grey,
           ),
           Text(
             message,
