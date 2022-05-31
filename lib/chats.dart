@@ -10,7 +10,7 @@ class Chats extends StatelessWidget {
         backgroundImage: NetworkImage("https://i.ibb.co/80szBpR/fatwa.jpg"),
         radius: 30,
       ),
-      title: Column(
+      title: Row(
         children: [
           Text(
             name,
