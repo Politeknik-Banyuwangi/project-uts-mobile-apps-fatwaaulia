@@ -29,7 +29,7 @@ class Chats extends StatelessWidget {
         ),
         subtitle: Row(children: [
           Icon(
-            Icons.check_box,
+            Icons.check,
             color: Colors.grey,
           ),
           Text(
